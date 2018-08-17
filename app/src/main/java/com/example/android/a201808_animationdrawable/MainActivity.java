@@ -119,7 +119,7 @@ public class MainActivity extends AppCompatActivity {
             // 換圖
             m_view_logo.setBackground(m_arr_NbaLogos.getDrawable(index));
             // 0.1秒後再執行一次
-            m_Handler.postDelayed(this, 100); // this 是 Start 物件自己
+            m_Handler.postDelayed(this, 250); // this 是 Start 物件自己
         }
     }
 
